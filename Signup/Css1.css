@@ -1,0 +1,73 @@
+body {
+
+    background: URL("background-6360861.svg") no-repeat ;
+    background-size: cover;
+}
+
+/* Bordered form */
+form {
+  border-right: .5px solid rgb(5, 155, 201);
+  border-bottom: 1px solid rgb(5, 155, 201);
+  border-radius: 15px;
+  margin: 5% 30%;
+  padding: 3% 8%;
+  color:rgb(13, 43, 88);
+  background-color: rgba(255, 255, 255, 0.826);
+  width: auto;
+
+}
+h1 {
+    margin: 20px 0px 40px 0px;
+    padding: 0% 20% 0% ;
+}
+
+input[type=text], input[type=password],input[type=email],input[type=number],input[type=tel] {
+  width: 100%;
+  padding: 12px 30px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid rgb(5, 155, 201);
+  border-radius: 10px;
+  box-sizing: border-box;
+  opacity: 80%;
+  
+}
+
+button {
+  background-color:rgb(5, 155, 201);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.Buttons {
+    margin: 15px 0px 0px 0px;
+}
+
+button:hover {
+  opacity: 0.8;
+  border: 1px solid rgb(5, 155, 201);;
+  border-radius: 10px;
+}
+
+.CancelButton {
+  width: 100%;
+  padding: 10px 18px;
+  background-color: #f44336;
+
+}
+
+
+@media screen and (max-width: 1000px){
+    form {
+        margin: 0% 20%;
+      }
+
+@media screen and (max-width: 650px) {
+    form {
+        margin: auto;
+      }

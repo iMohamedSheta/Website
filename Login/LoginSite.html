@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="AR" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css2.css">
+    <title>المتميزون - تسجيل الدخول</title>
+</head>
+<body>
+<div class="DivNumber1">
+        <form action="Login.php" method="post">
+
+            <?//    Heading     ?>
+
+            <h1>تسجيل الدخول</h1>
+
+
+            <?//    Email     ?>
+
+            <label for= "Email">        <b>البريد الالكتروني</b>  </label>
+            <input type="email" placeholder="ادخل البريد الالكتروني" name="Email"  required >
+
+            <?//    Password      ?>
+
+            <label for="Passwordd">      <b>كلمة السر</b>     </label>
+            <input type="password" placeholder="ادخل كلمة السر" name="Passwordd" required 
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+            title=" يجب ان تحتوي كلمة السر علي الاقل علي رقم واحد 
+            وحرف كبير وحرف صغير وان تكون كلمة السر
+             مكونة من 8 خانات عل الاقل." >
+
+            <?//    Buttons-(Sign_up-Cancel)       ?>
+
+            <div class="Buttons">
+                 <button type="submit"><b>تسجيل الدخول</b></button>
+            
+                 <button class="CancelButton" type="button"><b>الغاء</b></button>
+            </div>
+
+        </form>
+        
+    </div>
+</body>
+</html>
